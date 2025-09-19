@@ -73,7 +73,7 @@ publishing {
     publications {
         mavenJava(MavenPublication) {
             groupId = 'org.example'
-            artifacrId = 'todo-app'
+            artifactId = 'todo-app'
             version = project.version
 
             artifact(tasks.shadowJar) {
